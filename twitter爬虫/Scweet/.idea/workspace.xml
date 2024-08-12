@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebeafb11-70f8-48c8-a753-08ca4641f6a5" name="Changes" comment="Fix login timeout error">
+      <change afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-1-14_2018-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-1-1_2018-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-10-14_2018-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-11-14_2018-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-12-14_2019-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-12-1_2018-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-2-14_2018-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-2-1_2018-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-3-14_2018-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-3-1_2018-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-4-14_2018-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-4-1_2018-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-5-14_2018-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-6-14_2018-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-6-1_2018-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-7-14_2018-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-7-1_2018-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-8-14_2018-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-8-1_2018-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-9-14_2018-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2018-9-1_2018-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-1-1_2019-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-10-14_2019-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-11-14_2019-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-11-1_2019-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-12-14_2020-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-12-1_2019-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-2-14_2019-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-2-1_2019-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-4-1_2019-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-5-14_2019-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-5-1_2019-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-6-14_2019-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-6-1_2019-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-7-14_2019-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-7-1_2019-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-8-14_2019-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-8-1_2019-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2019-9-1_2019-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-1-14_2020-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-1-1_2020-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-2-14_2020-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-2-1_2020-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-3-14_2020-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-3-1_2020-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-4-14_2020-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-4-1_2020-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-5-14_2020-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-5-1_2020-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2020-6-1_2020-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2022-1-14_2022-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2022-1-1_2022-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2022-2-14_2022-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2022-2-1_2022-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2022-3-14_2022-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2022-3-1_2022-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/ChainInfo_chaindotinfo_2022-4-1_2022-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-1-14_2010-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-1-1_2010-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-10-14_2010-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-10-1_2010-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-11-14_2010-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-11-1_2010-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-12-14_2011-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-12-1_2010-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-2-14_2010-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-2-1_2010-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-3-14_2010-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-3-1_2010-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-4-14_2010-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-4-1_2010-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-5-14_2010-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-5-1_2010-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-6-14_2010-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-6-1_2010-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-7-14_2010-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-7-1_2010-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-8-14_2010-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-8-1_2010-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-9-14_2010-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2010-9-1_2010-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-1-14_2011-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-1-1_2011-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-10-14_2011-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-10-1_2011-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-11-14_2011-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-12-14_2012-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-12-1_2011-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-2-14_2011-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-2-1_2011-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-3-14_2011-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-3-1_2011-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-4-14_2011-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-4-1_2011-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-5-14_2011-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-5-1_2011-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-6-14_2011-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-6-1_2011-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-7-14_2011-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-7-1_2011-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-8-14_2011-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-8-1_2011-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2011-9-1_2011-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-1-14_2012-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-1-1_2012-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-10-14_2012-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-10-1_2012-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-11-14_2012-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-2-14_2012-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-2-1_2012-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-3-14_2012-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-3-1_2012-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-4-14_2012-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-4-1_2012-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-5-1_2012-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-6-14_2012-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-7-14_2012-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-7-1_2012-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-8-14_2012-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-8-1_2012-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-9-14_2012-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2012-9-1_2012-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-1-14_2013-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-1-1_2013-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-10-14_2013-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-10-1_2013-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-11-14_2013-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-11-1_2013-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-12-14_2014-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-12-1_2013-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-2-14_2013-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-2-1_2013-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-3-14_2013-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-3-1_2013-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-4-14_2013-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-4-1_2013-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-5-14_2013-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-5-1_2013-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-6-14_2013-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-6-1_2013-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-7-14_2013-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-7-1_2013-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-8-14_2013-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-8-1_2013-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-9-14_2013-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2013-9-1_2013-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-1-1_2014-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-10-1_2014-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-2-14_2014-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-2-1_2014-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-3-14_2014-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-3-1_2014-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-4-14_2014-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-4-1_2014-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-5-14_2014-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-5-1_2014-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-6-14_2014-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-6-1_2014-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-7-14_2014-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-7-1_2014-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-8-14_2014-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-8-1_2014-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2014-9-14_2014-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-1-14_2015-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-1-1_2015-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-10-14_2015-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-11-14_2015-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-11-1_2015-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-12-14_2016-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-12-1_2015-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-2-14_2015-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-2-1_2015-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-3-14_2015-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-4-1_2015-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-5-14_2015-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-6-1_2015-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-7-14_2015-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-7-1_2015-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2015-8-14_2015-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-1-14_2016-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-1-1_2016-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-10-14_2016-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-10-1_2016-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-11-14_2016-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-11-1_2016-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-12-14_2017-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-12-1_2016-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-2-14_2016-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-2-1_2016-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-3-14_2016-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-3-1_2016-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-4-14_2016-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-4-1_2016-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-5-14_2016-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-5-1_2016-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-6-14_2016-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-6-1_2016-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-7-14_2016-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-7-1_2016-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-8-14_2016-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-8-1_2016-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-9-14_2016-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2016-9-1_2016-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-1-14_2017-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-1-1_2017-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-10-14_2017-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-11-14_2017-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-11-1_2017-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-12-14_2018-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-12-1_2017-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-2-14_2017-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-2-1_2017-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-3-14_2017-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-3-1_2017-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-4-14_2017-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-4-1_2017-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-6-14_2017-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-6-1_2017-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-7-14_2017-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2017-8-1_2017-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-1-14_2018-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-1-1_2018-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-10-14_2018-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-10-1_2018-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-11-14_2018-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-11-1_2018-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-12-14_2019-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-12-1_2018-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-2-1_2018-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-3-14_2018-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-3-1_2018-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-4-14_2018-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-4-1_2018-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-5-14_2018-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-5-1_2018-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-6-14_2018-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-6-1_2018-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-7-14_2018-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-7-1_2018-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-8-14_2018-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-9-14_2018-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2018-9-1_2018-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-1-14_2019-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-1-1_2019-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-10-14_2019-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-10-1_2019-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-11-14_2019-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-11-1_2019-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-12-14_2020-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-12-1_2019-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-2-14_2019-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-2-1_2019-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-3-14_2019-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-3-1_2019-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-4-14_2019-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-4-1_2019-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-5-14_2019-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-5-1_2019-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-6-14_2019-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-6-1_2019-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-7-14_2019-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-7-1_2019-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-8-14_2019-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-8-1_2019-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-9-14_2019-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2019-9-1_2019-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-1-14_2020-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-1-1_2020-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-10-14_2020-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-10-1_2020-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-11-14_2020-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-11-1_2020-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-12-14_2021-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-12-1_2020-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-2-14_2020-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-2-1_2020-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-3-14_2020-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-3-1_2020-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-4-1_2020-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-7-14_2020-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-7-1_2020-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-8-14_2020-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-8-1_2020-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-9-14_2020-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2020-9-1_2020-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-1-14_2021-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-1-1_2021-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-10-1_2021-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-11-14_2021-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-11-1_2021-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-2-14_2021-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-2-1_2021-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-3-14_2021-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-4-14_2021-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-4-1_2021-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-5-14_2021-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-5-1_2021-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-6-14_2021-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-6-1_2021-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-7-14_2021-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-7-1_2021-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-8-14_2021-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-8-1_2021-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-9-14_2021-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2021-9-1_2021-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2022-1-14_2022-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2022-1-1_2022-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2022-2-14_2022-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2022-2-1_2022-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2022-3-14_2022-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2022-3-1_2022-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/Ethereum_2022-4-1_2022-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-1-14_2010-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-1-1_2010-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-1-1_2010-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-10-14_2010-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-10-1_2010-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-11-14_2010-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-11-1_2010-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-12-14_2011-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-12-1_2010-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-2-14_2010-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-2-1_2010-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-3-14_2010-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-3-1_2010-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-4-14_2010-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-4-1_2010-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-5-14_2010-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-5-1_2010-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-6-14_2010-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-6-1_2010-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-7-14_2010-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-7-1_2010-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-7-1_2011-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-8-14_2010-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-8-1_2010-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-9-14_2010-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2010-9-1_2010-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-1-14_2011-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-1-1_2011-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-10-14_2011-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-10-1_2011-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-11-14_2011-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-11-1_2011-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-12-14_2012-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-12-1_2011-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-2-14_2011-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-2-1_2011-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-3-14_2011-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-3-1_2011-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-4-14_2011-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-4-1_2011-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-5-14_2011-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-5-1_2011-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-6-14_2011-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-6-1_2011-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-7-14_2011-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-7-1_2011-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-7-1_2012-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-8-14_2011-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-8-1_2011-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-9-14_2011-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2011-9-1_2011-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-1-14_2012-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-1-1_2012-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-1-1_2012-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-10-14_2012-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-10-1_2012-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-11-14_2012-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-11-1_2012-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-12-14_2013-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-12-1_2012-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-2-14_2012-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-2-1_2012-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-3-14_2012-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-3-1_2012-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-4-14_2012-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-4-1_2012-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-5-14_2012-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-5-1_2012-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-6-14_2012-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-6-1_2012-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-7-14_2012-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-7-1_2012-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-7-1_2013-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-8-14_2012-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-8-1_2012-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-9-14_2012-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2012-9-1_2012-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-1-14_2013-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-1-1_2013-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-1-1_2013-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-10-14_2013-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-10-1_2013-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-11-14_2013-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-11-1_2013-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-12-14_2014-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-12-1_2013-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-2-14_2013-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-2-1_2013-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-3-14_2013-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-3-1_2013-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-4-14_2013-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-4-1_2013-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-5-14_2013-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-5-1_2013-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-6-14_2013-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-6-1_2013-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-7-14_2013-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-7-1_2013-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-8-14_2013-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-8-1_2013-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-9-14_2013-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2013-9-1_2013-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-1-14_2014-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-1-1_2014-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-10-14_2014-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-10-1_2014-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-11-14_2014-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-11-1_2014-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-12-14_2015-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-12-1_2014-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-2-14_2014-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-2-1_2014-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-3-14_2014-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-3-1_2014-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-4-14_2014-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-4-1_2014-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-5-14_2014-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-5-1_2014-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-6-14_2014-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-6-1_2014-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-7-14_2014-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-7-1_2014-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-8-14_2014-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-8-1_2014-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-9-14_2014-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2014-9-1_2014-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-1-14_2015-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-1-1_2015-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-10-14_2015-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-10-1_2015-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-11-14_2015-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-11-1_2015-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-12-14_2016-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-12-1_2015-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-2-14_2015-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-2-1_2015-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-3-14_2015-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-3-1_2015-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-4-14_2015-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-4-1_2015-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-5-14_2015-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-5-1_2015-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-6-14_2015-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-6-1_2015-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-7-14_2015-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-7-1_2015-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-8-14_2015-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-8-1_2015-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-9-14_2015-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2015-9-1_2015-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-1-14_2016-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-1-1_2016-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-10-14_2016-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-10-1_2016-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-11-14_2016-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-11-1_2016-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-12-14_2017-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-12-1_2016-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-2-14_2016-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-2-1_2016-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-3-14_2016-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-3-1_2016-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-4-14_2016-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-4-1_2016-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-5-14_2016-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-5-1_2016-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-6-14_2016-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-6-1_2016-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-7-14_2016-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-7-1_2016-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-8-14_2016-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-8-1_2016-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-9-14_2016-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2016-9-1_2016-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-1-14_2017-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-1-1_2017-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-10-14_2017-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-10-1_2017-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-11-14_2017-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-11-1_2017-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-12-14_2018-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-12-1_2017-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-2-14_2017-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-2-1_2017-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-3-14_2017-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-3-1_2017-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-4-14_2017-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-4-1_2017-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-5-14_2017-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-5-1_2017-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-6-14_2017-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-6-1_2017-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-7-14_2017-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-7-1_2017-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-8-14_2017-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-8-1_2017-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-9-14_2017-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2017-9-1_2017-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-1-14_2018-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-1-1_2018-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-1-1_2018-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-10-14_2018-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-10-1_2018-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-11-14_2018-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-11-1_2018-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-12-14_2019-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-12-1_2018-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-2-14_2018-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-2-1_2018-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-2-1_2018-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-3-14_2018-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-3-1_2018-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-3-1_2018-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-4-14_2018-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-4-1_2018-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-4-1_2018-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-5-14_2018-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-5-1_2018-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-5-1_2018-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-6-14_2018-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-6-1_2018-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-6-1_2018-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-7-14_2018-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-7-1_2018-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-7-1_2018-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-8-14_2018-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-8-1_2018-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-9-14_2018-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2018-9-1_2018-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-1-14_2019-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-1-1_2019-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-10-14_2019-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-10-1_2019-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-11-14_2019-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-11-1_2019-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-12-14_2020-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-12-1_2019-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-2-14_2019-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-2-1_2019-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-3-14_2019-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-3-1_2019-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-4-14_2019-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-4-1_2019-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-5-14_2019-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-5-1_2019-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-6-14_2019-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-6-1_2019-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-7-14_2019-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-7-1_2019-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-8-14_2019-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-8-1_2019-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-9-14_2019-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2019-9-1_2019-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-1-14_2020-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-1-1_2020-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-1-1_2020-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-1-1_2020-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-10-14_2020-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-10-1_2020-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-10-1_2020-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-11-14_2020-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-11-1_2020-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-12-14_2021-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-12-1_2020-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-2-14_2020-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-2-1_2020-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-2-1_2020-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-3-14_2020-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-3-14_2020-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-3-1_2020-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-3-1_2020-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-3-1_2020-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-4-14_2020-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-4-1_2020-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-4-1_2020-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-5-14_2020-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-5-1_2020-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-5-1_2020-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-6-14_2020-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-6-1_2020-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-6-1_2020-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-7-14_2020-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-7-1_2020-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-7-1_2020-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-8-14_2020-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-8-1_2020-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-8-1_2020-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-9-14_2020-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-9-1_2020-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2020-9-1_2020-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-1-14_2021-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-1-1_2021-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-10-14_2021-11-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-10-1_2021-10-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-11-14_2021-12-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-11-1_2021-11-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-12-1_2021-12-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-2-14_2021-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-2-1_2021-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-3-14_2021-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-3-1_2021-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-4-14_2021-5-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-4-1_2021-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-5-14_2021-6-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-5-1_2021-5-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-6-14_2021-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-6-1_2021-6-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-7-14_2021-8-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-7-1_2021-7-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-8-14_2021-9-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-8-1_2021-8-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-9-14_2021-10-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2021-9-1_2021-9-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2022-1-14_2022-2-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2022-1-1_2022-1-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2022-2-14_2022-3-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2022-2-1_2022-2-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2022-3-14_2022-4-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2022-3-1_2022-3-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newoutputs/bitcoin_2022-4-1_2022-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/@ChainInfo_2020-4-20_2021-4-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2010-1-1_2010-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2010-7-1_2011-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2011-1-1_2011-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2011-7-1_2012-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2012-1-1_2012-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2012-7-1_2013-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2013-1-1_2013-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2013-7-1_2014-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2014-1-1_2014-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2014-7-1_2015-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2015-1-1_2015-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2015-7-1_2016-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2016-1-1_2016-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2016-7-1_2017-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2017-1-1_2017-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2017-7-1_2018-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2018-1-1_2018-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2018-7-1_2019-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2019-1-1_2019-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2019-7-1_2020-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2020-1-1_2020-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2020-1-1_2022-4-14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2020-7-1_2021-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2021-08-05_2021-08-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2021-1-1_2021-7-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2021-7-1_2022-1-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/bitcoin_2022-1-1_2022-4-5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraperKeywords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadsScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/FUNDING.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Scweet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Scweet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Example.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterscraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scweet.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/Scweet.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scweet.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scweet.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scweet.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scweet.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scweet.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scweet.egg-info/requires.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scweet.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scweet.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scweet/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scweet/__version__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scweet/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scweet/const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scweet/scweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scweet/scweet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scweet/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scweet/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scweet/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scweet/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/Scweet/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/Scweet/__version__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/Scweet/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/Scweet/const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/Scweet/scweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/Scweet/scweet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/Scweet/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/Scweet/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/Scweet/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/Scweet/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/bitcoin_ethereum_2015-04-01_2015-04-02.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/bitcoin_ethereum_2015-04-01_2015-04-15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/bitcoin_ethereum_2021-10-01_2021-10-05.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/bitcoin_etherium_2015-04-01_2015-04-2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/covid_covid19_2020-04-01_2020-04-2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1wSo8bh6mkEcPmD6copMija6JR9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/付彤-3.系统安装部署/源代码/twitter爬虫/Scweet&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.threadsScraper">
+    <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Scweet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Scweet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="threadsScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Scweet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadsScraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="twitterscraper (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Scweet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitterscraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="twitterscraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Scweet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Viola\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\BUPT\知识图谱\网页爬取\Scweet\twitterscraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.threadsScraper" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.twitterscraper (1)" />
+        <item itemvalue="Python.scraper" />
+        <item itemvalue="Python.twitterscraper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebeafb11-70f8-48c8-a753-08ca4641f6a5" name="Changes" comment="" />
+      <created>1628461210353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628461210353</updated>
+      <workItem from="1649901497204" duration="1432000" />
+      <workItem from="1649903490683" duration="14890000" />
+      <workItem from="1650271605620" duration="38182000" />
+      <workItem from="1662450436439" duration="28000" />
+      <workItem from="1716026512257" duration="617000" />
+      <workItem from="1716093295175" duration="708000" />
+      <workItem from="1716114816799" duration="785000" />
+      <workItem from="1716194273182" duration="594000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fix login timeout error">
+      <created>1641220203456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641220203456</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix login timeout error">
+      <created>1641221379276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641221379276</updated>
+    </task>
+    <task id="LOCAL-00003" summary="V 1.7">
+      <created>1641221862491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641221862491</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fix login timeout error" />
+    <MESSAGE value="V 1.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="V 1.7" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Scweet$Example.coverage" NAME="Example Coverage Results" MODIFIED="1649927499253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scweet$threadsScraper.coverage" NAME="threadsScraper Coverage Results" MODIFIED="1650460566897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scweet$test.coverage" NAME="test Coverage Results" MODIFIED="1650360083285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scweet$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1649939466078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scweet$twitterscraper__1_.coverage" NAME="twitterscraper (1) Coverage Results" MODIFIED="1650354325022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
