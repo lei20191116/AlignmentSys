@@ -1,0 +1,109 @@
+
+    <!-- Sidebar -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+  <!-- Sidebar - Brand -->
+  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+    <div class="sidebar-brand-icon rotate-n-15">
+      <i class="fas fa-laugh-wink"></i>
+    </div>
+    <div class="sidebar-brand-text mx-3">区块链身份关联系统</div>
+  </a>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider my-0">
+
+  <!-- Nav Item - Dashboard -->
+  <li class="nav-item">
+    <a class="nav-link" href="/">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span>身份可视化总览</span></a>
+  </li>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider">
+
+  <!-- Heading -->
+  <div class="sidebar-heading">
+    主要功能
+  </div>
+
+  <!-- Nav Item - Pages Collapse Menu -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+      <i class="fas fa-fw fa-cog"></i>
+      <span>犯罪分子身份搜索</span>
+    </a>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <a class="collapse-item" href="{{ url_for('usersearch') }}">单一境外账户身份对齐</a>
+        <a class="collapse-item" href="{{ url_for('multipleAccount') }}">多个境外账户身份对齐</a>
+        <a class="collapse-item" href="{{ url_for('identityAlignment') }}">身份对齐信息</a>
+      </div>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAddr" aria-expanded="true" aria-controls="collapseAddr">
+        <i class="fas fa-fw fa-table"></i>
+        <span>可疑地址</span>
+    </a>
+    <div id="collapseAddr" class="collapse" aria-labelledby="headingAddr" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <a class="collapse-item" href="{{ url_for('addrOverview') }}">可疑地址总览</a>
+        <a class="collapse-item" href="{{ url_for('addrVerify') }}">可疑地址验证</a>
+        <a class="collapse-item" href="{{ url_for('addrOverview') }}">指定类型地址查询</a>
+
+        <!--<a class="collapse-item" href="{{ url_for('cards') }}">Cards</a>-->
+      </div>
+    </div>
+  </li>
+  <!-- Nav Item - Utilities Collapse Menu -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+      <i class="fas fa-fw fa-wrench"></i>
+      <span>关联身份查询</span>
+    </a>
+    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <a class="collapse-item" href="{{ url_for('adduser') }}">地址关联身份查询</a>
+        <a class="collapse-item" href="{{ url_for('useradd') }}">身份关联地址查询</a>
+      </div>
+    </div>
+  </li>
+<!-- Nav Item - Utilities Collapse Menu -->
+
+  </li>
+  <!-- Divider -->
+  <hr class="sidebar-divider">
+
+  <!-- Heading -->
+  <div class="sidebar-heading">
+    额外功能
+  </div>
+
+  <!-- Nav Item - Pages Collapse Menu -->
+  <li class="nav-item active">
+    <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+      <i class="fas fa-fw fa-folder"></i>
+      <span>系统功能</span>
+    </a>
+    <div id="collapsePages" class="collapse show" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <h6 class="collapse-header">登录信息:</h6>
+        <a class="collapse-item" href="{{ url_for('login') }}">登出</a>
+        <a class="collapse-item" href="{{  url_for('register')  }}">注册</a>
+        <a class="collapse-item" href="{{  url_for('forgot_password')  }}">忘记密码</a>
+        <div class="collapse-divider"></div>
+{#        <h6 class="collapse-header">Other Pages:</h6>#}
+{#        <a class="collapse-item" href="{{  url_for('usersearch')  }}">犯罪分子身份搜索</a>#}
+      </div>
+    </div>
+  </li>
+
+  <hr class="sidebar-divider d-none d-md-block">
+
+  <div class="text-center d-none d-md-inline">
+    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+  </div>
+
+</ul>

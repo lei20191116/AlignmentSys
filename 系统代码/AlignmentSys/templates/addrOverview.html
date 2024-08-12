@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% block head_style %}
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+{% endblock %}
+{% block title %}  <title>可疑地址</title>
+{% endblock %}
+  <!-- Custom fonts for this template -->
+  <link href="../static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../static/css/sb-admin-2.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this page -->
+  <link href="../static/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+{% block content %}
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+        {% include 'contentscrumb.html' %}
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <div class="input-group-append" style="width: 200%;">
+                <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-200 navbar-search" action="{{ url_for('addrTypeSearch') }}" class="">
+
+                <div class="input-group-append" style="width: 400%;">
+                    <h3 class="h3 mb-2 text-black-800 mr-4">地址总览</h3>
+
+                    <h4 class="h4 mb-2 text-gray-800 mr-4">指定犯罪类型地址查询:</h4>
+                    <!-- 可疑地址类型按钮 -->
+                    <button type="button" class="btn btn-primary btn-sm mr-2" onclick="searchForType('counterfeit')">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>伪造
+                    </button>
+
+                    <button type="button" class="btn btn-info btn-sm mr-2" onclick="searchForType('scam')">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>诈骗
+                    </button>
+                    <button type="button" class="btn btn-warning btn-sm mr-2" onclick="searchForType('adult')">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>色情
+                    </button>
+                    <button type="button" class="btn btn-danger btn-sm mr-2" onclick="searchForType('weapon')">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>枪支
+                    </button>
+                    <button type="button" class="btn btn-dark btn-sm mr-2" onclick="searchForType('hack')">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>黑客
+                    </button>
+                    <button type="button" class="btn btn-secondary btn-sm mr-2" onclick="searchForType('drug')">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>毒品
+                    </button>
+
+                    <input type="hidden" name="criminal_type" id="searchType">
+                </div>
+              </form>
+            </div>
+          <!-- Sidebar Toggle (Topbar) -->
+
+
+          <!-- Topbar Search -->
+
+
+              <form width="100%" class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" action="{{ url_for('usersearch') }}" class="">
+                  <div class="input-group">
+                      <div class="input-group-append">
+
+                          </h6><input class="jump-ipt" style="width:300px;" type="text" placeholder="请输入要验证的地址..." value="" name="address">
+                          <span style="width:500px;"><button type="submit" style="margin-left: 20px;" class="btn btn-primary" >搜索
+                            <i class="fas fa-search fa-sm"></i></span>
+                          </button>
+
+                      </div>
+                  </div>
+              </form>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="搜索" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+{#          <h1 class="h3 mb-2 text-gray-800">查询结果</h1>#}
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">可疑地址数据</h6>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                        <th>地址</th>
+                        <th>币种</th>
+                        <th>类型</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {% for addr in addresses %}
+                        <tr><td><a href="{{ url_for('address_details', addr_hash=addr["addr"]) }}">{{ addr["addr"] }}</a></td>
+                            <td>{{ addr["addr_type"] }}</td>
+                            <td><a href="{{ url_for('addrTypeSearch', criminal_type=addr["criminal_type"]) }}">{{ addr["criminal_type"] }}</a></td>
+                        </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; 2020.Company name All rights reserved.<a target="_blank" href="http://www.html5code.net/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+{% endblock %}
+{% block body_script %}
+  <!-- Bootstrap core JavaScript-->
+  <script src="../static/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="../static/js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="../static/vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="../static/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="../static/js/demo/datatables-demo.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="../static/js/sb-admin-2.min.js"></script>
+    <script src="{{ url_for('static', filename='My97DatePicker/WdatePicker.js') }}"></script>
+     <script type="text/javascript">
+         function sclick(){
+         alert("ceshi");
+         }
+     </script>
+    <script>
+         function fun() {
+            sort = document.getElementById("seltext").value;
+            select = document.getElementById("ttest");
+            for (i = 0; i < select.length; i++) {
+                if (select[i].value == sort)
+                    select[i].selected = true;
+            }
+            }
+function searchForType(criminal_type) {
+    // 构建带查询参数的URL
+    const baseUrl = "{{ url_for('addrTypeSearch') }}";
+    const queryUrl = `${baseUrl}?criminal_type=${criminal_type}`;
+    // 重定向到新的URL
+    window.location.href = queryUrl;
+}
+
+        window.onload=fun;
+     </script>
+    <script>
+	function dateClick() {
+		WdatePicker({
+			dateFmt : 'yyyy-MM-dd HH:mm:ss',  //格式设置相对应界面可选择也变化
+			highLineWeekDay:true,  //周末的日期是否高亮
+			readOnly:true,  //是否允许键盘输入值，false为禁止输入，只能鼠标选
+		});
+	}
+    $(document).ready(function() {
+            $('#example').DataTable({
+                // 设置语言为中文
+                language: {
+                    url: "//cdn.datatables.net/plug-ins/1.11.5/i18n/Chinese.json"
+                }
+            });
+        });
+
+	</script>
+{% endblock %}
+
+
+</html>
